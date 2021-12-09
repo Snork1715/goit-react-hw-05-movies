@@ -1,0 +1,30 @@
+{
+  "files": {
+    "Cast.css": "/goit-react-hw-05-movies/static/css/Cast.6d1f0cb1.chunk.css",
+    "Cast.js": "/goit-react-hw-05-movies/static/js/Cast.4fe67509.chunk.js",
+    "Cast.js.map": "/goit-react-hw-05-movies/static/js/Cast.4fe67509.chunk.js.map",
+    "Reviews.css": "/goit-react-hw-05-movies/static/css/Reviews.35746754.chunk.css",
+    "Reviews.js": "/goit-react-hw-05-movies/static/js/Reviews.d34620f2.chunk.js",
+    "Reviews.js.map": "/goit-react-hw-05-movies/static/js/Reviews.d34620f2.chunk.js.map",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.a2de0be0.chunk.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.deae4e6d.chunk.js",
+    "main.js.map": "/goit-react-hw-05-movies/static/js/main.deae4e6d.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-05-movies/static/js/runtime-main.ad1fe7f3.js",
+    "runtime-main.js.map": "/goit-react-hw-05-movies/static/js/runtime-main.ad1fe7f3.js.map",
+    "static/js/4.f78b80f0.chunk.js": "/goit-react-hw-05-movies/static/js/4.f78b80f0.chunk.js",
+    "static/js/4.f78b80f0.chunk.js.map": "/goit-react-hw-05-movies/static/js/4.f78b80f0.chunk.js.map",
+    "index.html": "/goit-react-hw-05-movies/index.html",
+    "static/css/Cast.6d1f0cb1.chunk.css.map": "/goit-react-hw-05-movies/static/css/Cast.6d1f0cb1.chunk.css.map",
+    "static/css/Reviews.35746754.chunk.css.map": "/goit-react-hw-05-movies/static/css/Reviews.35746754.chunk.css.map",
+    "static/css/main.a2de0be0.chunk.css.map": "/goit-react-hw-05-movies/static/css/main.a2de0be0.chunk.css.map",
+    "static/js/4.f78b80f0.chunk.js.LICENSE.txt": "/goit-react-hw-05-movies/static/js/4.f78b80f0.chunk.js.LICENSE.txt",
+    "static/media/DefaultMovieCat.png": "/goit-react-hw-05-movies/static/media/DefaultMovieCat.a7630b32.png",
+    "static/media/defaultCast.011266f3.png": "/goit-react-hw-05-movies/static/media/defaultCast.011266f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad1fe7f3.js",
+    "static/js/4.f78b80f0.chunk.js",
+    "static/css/main.a2de0be0.chunk.css",
+    "static/js/main.deae4e6d.chunk.js"
+  ]
+}
