@@ -1,0 +1,17 @@
+.movie-article {
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 2px 2px 20px 1px rgba(121, 121, 122, 0.2);
+}
+
+.movie-article:hover {
+  transform: scale(1.02);
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100px;
+  padding: 10px;
+}

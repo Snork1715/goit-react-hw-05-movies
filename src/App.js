@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import AppBar from "./components/AppBar";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./views/HomePage";
+import MoviesPage from "./views/MoviesPage";
+import MovieDetailsPage from "./views/MovieDetailsPage";
+import Container from "./components/Container";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar />
+      <Container>
+        <QueryClientProvider client={queryClient}>
+          <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/movies" element={<MoviesPage />}></Route>
+            <Route
+              path="/movies/:slug/*"
+              element={<MovieDetailsPage />}
+            ></Route>
+          </Routes>
+        </QueryClientProvider>
+      </Container>
     </div>
   );
 }

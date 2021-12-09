@@ -1,0 +1,13 @@
+.addLink {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 20px;
+  font-size: 20px;
+  /* font-weight: 700; */
+  text-decoration: none;
+}
+
+.addActive-link {
+  color: rgb(15, 75, 238);
+}
